@@ -1,0 +1,285 @@
+body,
+div {
+    /* font-family: 'Reenie Beanie', cursive; */
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    cursor: none
+}
+
+p {
+    margin-bottom: 2px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 3vw;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
+
+h2 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2vw;
+    margin: 0px;
+    margin-left: 3vw;
+}
+
+/* make sure the line text stay in the same line */
+/* @media(max-width:455px) {
+    h2,
+    .search_box {
+        font-size: 1.5vw;
+    }
+} */
+
+/* search bar input box*/
+#plant_name_type {
+    border: none;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Rock Salt', cursive;
+    color: green;
+    width: 20%;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+/* search button */
+#plant_search {
+    border: none;
+    background-color: transparent;
+    cursor: help;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Rock Salt', cursive;
+    color: #000;
+}
+
+#plant_search:hover {
+    text-decoration: underline;
+}
+
+/* main plan section */
+.plan_section {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.garden_plan {
+    width: 100%;
+    height: auto;
+}
+
+/* veg buttons position*/
+.taro {
+    position: absolute;
+    left: 58%;
+    top: 2%;
+}
+
+.fig {
+    position: absolute;
+    left: 1.2%;
+    top: 42%;
+}
+
+.corn {
+    position: absolute;
+    left: 38%;
+    top: 18%;
+}
+
+.wintermelon {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+}
+
+.luffa {
+    position: absolute;
+    left: 2%;
+    top: 68%;
+}
+
+.potato {
+    position: absolute;
+    left: 28%;
+    top: 31%;
+}
+
+.squash {
+    position: absolute;
+    left: 78%;
+    top: 25%;
+}
+
+.mspinach {
+    position: absolute;
+    left: 47%;
+    top: 21%;
+}
+
+.bean {
+    position: absolute;
+    left: 86%;
+    top: 4%;
+}
+
+.amaranth {
+    position: absolute;
+    left: 20%;
+    top: 4%;
+}
+
+.apple {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.okra {
+    position: absolute;
+    left: 10%;
+    top: 22%;
+}
+
+.loquat {
+    position: absolute;
+    left: 27%;
+    top: 70%;
+}
+
+.kumquat {
+    position: absolute;
+    left: 12%;
+    top: 55%;
+}
+
+/* veg buttons styles */
+#button_fig,
+#button_okra,
+#button_corn,
+#button_wintermelon,
+#button_luffa,
+#button_potato,
+#button_squash,
+#button_mspinach,
+#button_bean,
+#button_taro,
+#button_kumquat,
+#button_loquat,
+#button_apple,
+#button_apple,
+#button_amaranth {
+    border: none;
+    cursor: help;
+    background-color: transparent;
+}
+
+#button_okra img,
+#button_fig img,
+#button_squash img,
+#button_mspinach img,
+#button_bean img,
+#button_kumquat img,
+#button_loquat img,
+#button_okra img,
+#button_apple img,
+#button_amaranth img,
+#button_corn img,
+#button_squash img,
+#button_wintermelon img,
+#button_potato img,
+#button_luffa img {
+    width: 10vw;
+}
+
+#button_taro img {
+    width: 18vw;
+}
+
+/* fetch response section*/
+/* api url fetch */
+.plant_info {
+    place-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 68%;
+    top: 59%;
+    width: 27%;
+    font-size: 1.4vw;
+}
+
+.plant_img {
+    position: absolute;
+    left: 55%;
+    top: 59%;
+    font-size: 1.4vw;
+}
+
+#p_img {
+    max-width: 10vw;
+    height: auto;
+    flex: center;
+}
+
+/* json file fetch */
+.plant_json {
+    place-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+    width: 40%;
+    font-size: 1.7vw;
+}
+
+.b_info {
+    margin: 0.2vw;
+}
+
+.figure_json {
+    position: absolute;
+    left: 45%;
+    top: 43%;
+    display: none;
+}
+
+#f_img {
+    max-width: 10vw;
+    height: auto;
+    flex: center;
+}
+
+/* error message */
+.error_message {
+    place-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 58%;
+    top: 62%;
+    width: 35%;
+}
+
+#error_message {
+    font-size: 2vw;
+    /* background-color: rgba(255,255,255, 0.5); */
+}
+
+/* p5 styling canvas position, on top of html*/
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}

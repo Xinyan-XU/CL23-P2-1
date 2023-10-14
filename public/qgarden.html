@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Reenie+Beanie&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="02style.css">
+    <title>qGarden</title>
+</head>
+
+<body>
+    <h1 class="h1">Welcome to Q Garden</h1>
+
+    <!-- search in url api -->
+    <section class="plant_random">
+        <h2>Plan to Grow Something Today? Why not Try
+            <span id="plant_generate">
+                <input class="search_box" id="plant_name_type" placeholder="HI!"></input>
+                <button class="search_box" id="plant_search">To Start!</button></span>
+        </h2>
+    </section>
+
+    <!-- main section -->
+    <div class="plan_section">
+        <img class="garden_plan" src="./img/garden-plan.PNG" alt="garden_plan" />
+
+        <button class="fig" id="button_fig">
+            <img src="./img/common-fig.png" alt="fig_img" />
+        </button>
+
+        <button class="corn" id="button_corn">
+            <img src="./img/corn.png" alt="corn_img" />
+        </button>
+
+        <button class="wintermelon" id="button_wintermelon">
+            <img src="./img/winter-melon.png" alt="wintermelon_img" />
+        </button>
+
+        <button class="luffa" id="button_luffa">
+            <img src="./img/luffa.png" alt="luffa_img" />
+        </button>
+
+        <button class="potato" id="button_potato">
+            <img src="./img/potato.png" alt="potato_img" />
+        </button>
+
+        <button class="squash" id="button_squash">
+            <img src="./img/squash.png" alt="squash_img" />
+        </button>
+
+        <button class="mspinach" id="button_mspinach">
+            <img src="./img/malabar-spinach.png" alt="mspinach_img" />
+        </button>
+
+        <button class="bean" id="button_bean">
+            <img src="./img/yardlong-bean.png" alt="bean_img" />
+        </button>
+
+        <button class="taro" id="button_taro">
+            <img src="./img/taro.png" alt="taro_img" />
+        </button>
+
+        <button class="amaranth" id="button_amaranth">
+            <img src="./img/amaranth.png" alt="amaranth_img" />
+        </button>
+
+        <button class="apple" id="button_apple">
+            <img src="./img/granny-smith-apple.png" alt="apple_img" />
+        </button>
+
+        <button class="okra" id="button_okra">
+            <img src="./img/okra.png" alt="okra_img" />
+        </button>
+
+        <button class="loquat" id="button_loquat">
+            <img src="./img/loquat.png" alt="loquat_img" />
+        </button>
+
+        <button class="kumquat" id="button_kumquat">
+            <img src="./img/kumquat.png" alt="okumquat_img" />
+        </button>
+
+        <!-- fetch result section -->
+        <!-- url api -->
+        <section class="plant_img">
+            <p id="p_bio_name"></p>
+            <img id="p_img" />
+        </section>
+
+        <section class="plant_info">
+            <p id="p_suncond"></p>
+            <p id="p_info"></p>
+        </section>
+
+        <!-- in json file -->
+        <section class="plant_json">
+            <p class="b_info" id="b_commonName"></p>
+            <p class="b_info" id="b_bioName"></p>
+            <p class="b_info" id="b_sowing"></p>
+            <p class="b_info" id="b_height"></p>
+            <p class="b_info" id="b_info"></p>
+        </section>
+
+        <section class="figure_json">
+            <img id='f_img' src="./img/tun_popo.PNG" alt="tun_popo">
+        </section>
+
+        <!-- error message -->
+        <p class="error_message" id="error_message"></p>
+
+        <!-- p5 library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+        <script src="02app.js"></script>
+</body>
+
+</html>

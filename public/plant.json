@@ -1,0 +1,130 @@
+{
+    "plants": [
+        {
+            "commonName": "Fig",
+            "binomialName": "Ficus carica",
+            "sowingMethod": "Cutting, young tree, or seeds",
+            "spread": "300 centimeters",
+            "height": "800 centimeters",
+            "harvest": "In warmer climates, they can produce two crops, one in early summer, and the other in fall.",
+            "hearMyPopoTalk": "./mp3/fig.m4a"
+        },
+        {
+            "commonName": "Taro",
+            "binomialName": "Colocasia esculenta",
+            "sowingMethod": "Direct seed tubers outdoors",
+            "spread": "45 centimeters",
+            "height": "120 centimeters",
+            "harvest": "The crop matures in 9-12 months, when the leaves begin to yellow and die down and there is a slight lifting of the tubers.",
+            "hearMyPopoTalk": "./mp3/taro.m4a"
+        },
+        {
+            "commonName": "Corn",
+            "binomialName": "Zea mays",
+            "sowingMethod": "Direct seed outdoors",
+            "spread": "60 centimeters",
+            "height": "290 centimeters",
+            "harvest": "Corn is planted in mid-March through early June. Corn is mainly harvested in October and is finished by the end of November.",
+            "hearMyPopoTalk": "./mp3/corn.m4a"
+        },
+        {
+            "commonName": "Winter Melon",
+            "binomialName": "Benincasa hispida",
+            "sowingMethod": "Direct seed outside once soil is 19° C or seed in peat pots, 30cm apart",
+            "spread": "450 centimeters",
+            "height": "45 centimeters",
+            "harvest": "Usually harvested in the fall after approximately 110 days. The fruit is ready to be picked when full-size and the stem turns brown.",
+            "hearMyPopoTalk": "./mp3/wintermelon.m4a"
+        },
+        {
+            "commonName": "Luffa",
+            "binomialName": "Luffa aegyptiaca",
+            "sowingMethod": "Direct seed. If planting indoors, harden off before transplanting seedlings outside.",
+            "spread": "Vine spread",
+            "height": "900 centimeters",
+            "harvest": "Fruit must be harvested when young and under 12cm long to be edible. Two are grown specifically for the use of their mature, fibrous fruit as a scrubbing sponge.",
+            "hearMyPopoTalk": "./mp3/luffa.m4a"
+        },
+        {
+            "commonName": "Potato",
+            "binomialName": "Solanum tuberosum",
+            "sowingMethod": "Direct seed outdoors after last frost.",
+            "spread": "30 centimeters",
+            "height": "60 centimeters",
+            "harvest": "Mature potatoes should be harvested about two weeks after the flowers and vines begin to yellow and die.",
+            "hearMyPopoTalk": "./mp3/potato.m4a"
+        },
+        {
+            "commonName": "Squash",
+            "binomialName": "Cucurbita",
+            "sowingMethod": "Direct seed indoors or outdoors",
+            "spread": "60 centimeters",
+            "height": "100 centimeters",
+            "harvest": "Squash are commonly divided into two main groups: summer and winter. Summer squash have shorter growing times, a bushy growth habit, tender skin, and are quite prolific.",
+            "hearMyPopoTalk": "./mp3/squash.m4a"
+        },
+        {
+            "commonName": "Malabar Spinach",
+            "binomialName": "Basella alba",
+            "sowingMethod": "Direct seed. If planting indoors, harden off before transplanting seedlings outside.",
+            "spread": "20 centimeters",
+            "height": "250 centimeters",
+            "harvest": "Harvesting begins about 2 months after sowing. The most useful parts of the plant are the young leaves and shoot tips, which may be harvested until flowering begins.",
+            "hearMyPopoTalk": "./mp3/malabar.m4a"
+        },
+        {
+            "commonName": "Yardlong Bean",
+            "binomialName": "Vigna unguiculata subsp. sesquipedalis",
+            "sowingMethod": "Direct seed outdoors, 8cm apart.",
+            "spread": "45 centimeters",
+            "height": "270 centimeters",
+            "harvest": "Yardlong beans are generally planted in the spring once the ground is warm. After about an 80 day growing season, beans can be harvested and eaten.",
+            "hearMyPopoTalk": "./mp3/bean.m4a"
+        },
+        {
+            "commonName": "Amaranth",
+            "binomialName": "Amaranthus cruentus",
+            "sowingMethod": "Direct seed, thin seedlings to 15cm",
+            "spread": "90 centimeters",
+            "height": "300 centimeters",
+            "harvest": "You can begin harvesting amaranth plants for greens almost immediately. Young greens are perfect for salads, while older greens are better when cooked like spinach. Seeds ripen about three months after planting.",
+            "hearMyPopoTalk": "./mp3/.amaranth.m4a"
+        },
+        {
+            "commonName": "Granny Smith Apple",
+            "binomialName": "Malus domestica × M. sylvestris",
+            "sowingMethod": "Transplant bare-root plant",
+            "spread": "450 centimeters",
+            "height": "450 centimeters",
+            "harvest": "Depending on the size chosen, the tree will bear fruit within 2-5 years of planting.",
+            "hearMyPopoTalk": "./mp3/apple.m4a"
+        },
+        {
+            "commonName": "Okra",
+            "binomialName": "Abelmoschus esculentus",
+            "sowingMethod": "Direct seed indoors or outside",
+            "spread": "25 centimeters",
+            "height": "250 centimeters",
+            "harvest": "Once the pods reach 2-3 inches long and are vibrant in color, then it's time to harvest okra! Picking okra pods at this young stage will ensure that they remain tender.",
+            "hearMyPopoTalk": "./mp3/okra.m4a"
+        },
+        {
+            "commonName": "Loquat",
+            "binomialName": "Eriobotrya japonica",
+            "sowingMethod": "Transplant young grafted sapling",
+            "spread": "400 centimeters",
+            "height": "400 centimeters",
+            "harvest": "A loquat is ripe when orangey-yellow and no green remains. When squeezed gently, the fruit will be a little soft, much like a peach.",
+            "hearMyPopoTalk": "./mp3/loquat.m4a"
+        },
+        {
+            "commonName": "Kumquat",
+            "binomialName": "Citrus japonica",
+            "sowingMethod": "Transplant grafted sapling",
+            "spread": "180 centimeters",
+            "height": "450 centimeters",
+            "harvest": "Depending on size and age, kumquats can produce between hundreds and thousands of fruit each year. They are self-pollinating and begin to bear fruit within 1-3 years of planting.",
+            "hearMyPopoTalk": "./mp3/kumquat.m4a"
+        }
+    ]
+}
